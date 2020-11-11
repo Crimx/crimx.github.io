@@ -1,0 +1,8 @@
+<script language="javascript" type="text/javascript">
+var url = /\/\d\d\d\d\/\d\d\/\d\d\/[\w-]+/i.exec(window.location.href)
+if (url) {
+  window.location.href = '//blog.crimx.com' + url[0].toLowerCase().replace(/\.html$/i, '')
+} else {
+  window.location.href = '//blog.crimx.com'
+}
+</script>
